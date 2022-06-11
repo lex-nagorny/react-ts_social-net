@@ -1,0 +1,50 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1600px;
+    grid-template-areas:
+    "h h"
+    "n c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 3px;
+
+}
+
+.header {
+    grid-area: h;
+    background-color: #657992;
+    border-radius: 10px;
+}
+
+.header img {
+    width: 80px;
+    border-radius: 5px;
+}
+
+.nav {
+    grid-area: n;
+    background-color: #243d50;
+    border-style: groove;
+    border-color: #7a8b8b;
+    border-radius: 10px;
+    border-width: 1px;
+
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px cadetblue;
+    letter-spacing: 4px;
+    line-height: 1.5em;
+}
+
+.content {
+    grid-area: c;
+    background-color: #16222e;
+    border-radius: 10px;
+    text-shadow: 1px 1px chocolate;
+    color: cornsilk;
+}
+
+.content img {
+    width: 1200px;
+}
