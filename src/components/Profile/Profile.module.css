@@ -1,0 +1,7 @@
+.content {
+    grid-area: c;
+    background-color: #16222e;
+    border-radius: 10px;
+    text-shadow: 1px 1px chocolate;
+    color: cornsilk;
+}

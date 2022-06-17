@@ -1,0 +1,20 @@
+.nav {
+    grid-area: n;
+    background-color: #243d50;
+    border-style: groove;
+    border-color: #7a8b8b;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.item {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px cadetblue;
+    letter-spacing: 4px;
+    line-height: 1.5em;
+}
+
+.item.active {
+    color: #657992;
+}
